@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB53B7E5282AF2120063AD2E /* Math_Question_Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */; };
+		DB53B7E9282B02700063AD2E /* Math_Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7E8282B02700063AD2E /* Math_Question3.swift */; };
+		DB53B7EB282B29A40063AD2E /* Math_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7EA282B29A40063AD2E /* Math_Results.swift */; };
+		DB53B7ED282B4EF70063AD2E /* Question_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7EC282B4EF70063AD2E /* Question_2.swift */; };
+		DB53B7EF282B75E00063AD2E /* Math_Begin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7EE282B75E00063AD2E /* Math_Begin.swift */; };
+		DB53B7F1282B7A9F0063AD2E /* Physics_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7F0282B7A9F0063AD2E /* Physics_Part1.swift */; };
 		DBECAA622829B72D0041891F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA612829B72D0041891F /* AppDelegate.swift */; };
 		DBECAA642829B72D0041891F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA632829B72D0041891F /* SceneDelegate.swift */; };
 		DBECAA662829B72D0041891F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA652829B72D0041891F /* ViewController.swift */; };
@@ -16,6 +22,7 @@
 		DBECAA792829B72F0041891F /* IQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA782829B72F0041891F /* IQuizTests.swift */; };
 		DBECAA832829B72F0041891F /* IQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA822829B72F0041891F /* IQuizUITests.swift */; };
 		DBECAA852829B72F0041891F /* IQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA842829B72F0041891F /* IQuizUITestsLaunchTests.swift */; };
+		DBECAA92282ACB920041891F /* Math_Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECAA91282ACB920041891F /* Math_Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Question_Quiz2.swift; sourceTree = "<group>"; };
+		DB53B7E8282B02700063AD2E /* Math_Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Question3.swift; sourceTree = "<group>"; };
+		DB53B7EA282B29A40063AD2E /* Math_Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Results.swift; sourceTree = "<group>"; };
+		DB53B7EC282B4EF70063AD2E /* Question_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question_2.swift; sourceTree = "<group>"; };
+		DB53B7EE282B75E00063AD2E /* Math_Begin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Begin.swift; sourceTree = "<group>"; };
+		DB53B7F0282B7A9F0063AD2E /* Physics_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics_Part1.swift; sourceTree = "<group>"; };
 		DBECAA5E2829B72D0041891F /* IQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECAA612829B72D0041891F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBECAA632829B72D0041891F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		DBECAA7E2829B72F0041891F /* IQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECAA822829B72F0041891F /* IQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuizUITests.swift; sourceTree = "<group>"; };
 		DBECAA842829B72F0041891F /* IQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBECAA91282ACB920041891F /* Math_Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Questions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +116,14 @@
 				DBECAA612829B72D0041891F /* AppDelegate.swift */,
 				DBECAA632829B72D0041891F /* SceneDelegate.swift */,
 				DBECAA652829B72D0041891F /* ViewController.swift */,
+				DBECAA91282ACB920041891F /* Math_Questions.swift */,
 				DBECAA672829B72D0041891F /* Main.storyboard */,
+				DB53B7F0282B7A9F0063AD2E /* Physics_Part1.swift */,
+				DB53B7EE282B75E00063AD2E /* Math_Begin.swift */,
+				DB53B7EC282B4EF70063AD2E /* Question_2.swift */,
+				DB53B7E8282B02700063AD2E /* Math_Question3.swift */,
+				DB53B7EA282B29A40063AD2E /* Math_Results.swift */,
+				DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */,
 				DBECAA6A2829B72F0041891F /* Assets.xcassets */,
 				DBECAA6C2829B72F0041891F /* LaunchScreen.storyboard */,
 				DBECAA6F2829B72F0041891F /* Info.plist */,
@@ -258,9 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB53B7E5282AF2120063AD2E /* Math_Question_Quiz2.swift in Sources */,
+				DB53B7EF282B75E00063AD2E /* Math_Begin.swift in Sources */,
 				DBECAA662829B72D0041891F /* ViewController.swift in Sources */,
+				DB53B7E9282B02700063AD2E /* Math_Question3.swift in Sources */,
 				DBECAA622829B72D0041891F /* AppDelegate.swift in Sources */,
+				DB53B7ED282B4EF70063AD2E /* Question_2.swift in Sources */,
 				DBECAA642829B72D0041891F /* SceneDelegate.swift in Sources */,
+				DBECAA92282ACB920041891F /* Math_Questions.swift in Sources */,
+				DB53B7F1282B7A9F0063AD2E /* Physics_Part1.swift in Sources */,
+				DB53B7EB282B29A40063AD2E /* Math_Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
