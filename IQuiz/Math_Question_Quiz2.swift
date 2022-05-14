@@ -14,6 +14,11 @@ class Math_Question_Quiz2: UIViewController{
     private var Question1_Possible_Answers = [Int]()
     public var chooseCorrectAnswer: Bool = false;
     public var totalCorrect: Int = 0;
+    var chooseAnswerA = false;
+    var chooseAnswerB = false;
+    var chooseAnswerC = false;
+    var chooseAnswerD = false;
+    private var userChooseAnswer: Bool = false;
     var vcOne : Bool = true
     
     func buildUpQuestions(){
@@ -25,19 +30,36 @@ class Math_Question_Quiz2: UIViewController{
     }
     @IBAction func Choose_D(_ sender: Any) {
         chooseCorrectAnswer = false;
+        chooseAnswerA = false;
+         chooseAnswerB = false;
+        chooseAnswerC = false;
+         chooseAnswerD = true;
         Next_Button.isEnabled = true;
     }
     @IBAction func Choose_C(_ sender: Any) {
         chooseCorrectAnswer = false;
         Next_Button.isEnabled = true;
+        userChooseAnswer = false;
+        chooseAnswerA = false;
+         chooseAnswerB = false;
+        chooseAnswerC = true;
+         chooseAnswerD = false;
     }
     @IBAction func Choose_A(_ sender: Any) {
+        chooseAnswerA = true;
+         chooseAnswerB = false;
+        chooseAnswerC = false;
+         chooseAnswerD = false;
         chooseCorrectAnswer = true;
         Next_Button.isEnabled = true;
     }
     @IBAction func Choose_B(_ sender: Any) {
         chooseCorrectAnswer = false;
         Next_Button.isEnabled = true;
+        chooseAnswerA = false;
+         chooseAnswerB = true;
+        chooseAnswerC = false;
+         chooseAnswerD = false;
     }
     @IBOutlet weak var Next_Button: UIButton!
     override func viewDidLoad() {
@@ -65,9 +87,13 @@ class Math_Question_Quiz2: UIViewController{
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier
         {
-        case Optional("question_3_segue"):
+        case Optional("question_2_Answer"):
             print("This is fucken awesome")
-            let secondVC = segue.destination as! Math_Question3
+            let secondVC = segue.destination as! Math_Answer_2
+            secondVC.chooseanswerA = chooseAnswerA
+            secondVC.chooseanswerc = chooseAnswerC
+            secondVC.chooseanswerb = chooseAnswerB
+            secondVC.chooseanswerd = chooseAnswerD
             if(chooseCorrectAnswer){
                 secondVC.totalCorrect = totalCorrect + 1
             }else{

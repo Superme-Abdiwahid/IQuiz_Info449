@@ -14,6 +14,10 @@ class Math_Questions: UIViewController{
     private var String_Question_3 = [String]()
     private var Question1_Possible_Answers = [Int]()
     private var Question2_Possible_Answers = [Int]()
+    var chooseAnswerA = false;
+    var chooseAnswerB = false;
+    var chooseAnswerC = false;
+    var chooseAnswerD = false;
     private var userChooseAnswer: Bool = false;
     var vcOne : Bool = true
     
@@ -43,31 +47,35 @@ class Math_Questions: UIViewController{
     }
     @IBAction func Choose_A(_ sender: Any) {
         userChooseAnswer = false;
-//        Answer_B_Access.isEnabled = false;
-//        Answer_C_Access.isEnabled = false;
-//        Answer_D_Access.isEnabled = false;
+        chooseAnswerA = true;
+         chooseAnswerB = false;
+        chooseAnswerC = false;
+         chooseAnswerD = false;
         Next_Question.isEnabled = true;
     }
     
     @IBAction func Choose_B(_ sender: Any) {
         userChooseAnswer = false;
-//        Answer_A_Access.isEnabled = false;
-//        Answer_C_Access.isEnabled = false;
-//        Answer_D_Access.isEnabled = false;
+        chooseAnswerB = true;
+        chooseAnswerA = false;
+       chooseAnswerC = false;
+        chooseAnswerD = false;
         Next_Question.isEnabled = true;
     }
     @IBAction func Choose_D(_ sender: Any) {
         userChooseAnswer = false;
-//        Answer_A_Access.isEnabled = false;
-//        Answer_B_Access.isEnabled = false;
-//        Answer_C_Access.isEnabled = false;
+        chooseAnswerD = true;
+        chooseAnswerB = false;
+       chooseAnswerC = false;
+        chooseAnswerA = false;
         Next_Question.isEnabled = true;
     }
     
     @IBAction func Choose_C(_ sender: Any) {
-//        Answer_A_Access.isEnabled = false;
-//        Answer_B_Access.isEnabled = false;
-//        Answer_D_Access.isEnabled = false;
+        chooseAnswerC = true;
+        chooseAnswerB = false;
+       chooseAnswerA = false;
+        chooseAnswerD = false;
        Next_Question.isEnabled = true;
         userChooseAnswer = true;
     }
@@ -76,10 +84,14 @@ class Math_Questions: UIViewController{
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier
         {
-        case Optional("fromFirstToSecond"):
+        case Optional("math_answer_1"):
             print("abdi suprmee to second")
-            let secondVC = segue.destination as! Math_Question_Quiz2
+            let secondVC = segue.destination as! Math_Answers
             secondVC.chooseCorrectAnswer = self.userChooseAnswer
+            secondVC.chooseanswerA = chooseAnswerA
+            secondVC.chooseanswerc = chooseAnswerC
+            secondVC.chooseanswerb = chooseAnswerB
+            secondVC.chooseanswerd = chooseAnswerD
             break;
         default:
             print("Error in Segue")
@@ -88,8 +100,6 @@ class Math_Questions: UIViewController{
     
     @IBAction func Answer_b_Access(_ sender: Any) {
     }
-    
-
 
     @IBOutlet weak var Answer_B_Access: UIButton!
     

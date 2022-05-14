@@ -17,21 +17,24 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    @IBAction func Answer_C(_ sender: Any) {
-    }
-    @IBAction func Answer_B(_ sender: Any) {
-    }
-    
-    @IBAction func Answer_A(_ sender: Any) {
-    }
     
     
+    @IBAction func Settings(_ sender: Any) {
+        let alert = UIAlertController(title: "Settings", message: "Settings go here", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment:
+            "Default action"), style: .default, handler: { _ in NSLog("The \"OK\" alert occured.")
+        }))
+        self.present(alert, animated: true, completion: {
+            NSLog("The alert was presented")})
+    }
+    @IBAction func Setting_Button(_ sender: Any) {
+    }
     
     @IBOutlet weak var TableView: UITableView!
     
     
-    
 
+    
 }
 
 
@@ -63,6 +66,8 @@ extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = TableView.dequeueReusableCell(withIdentifier: "cell_1", for: indexPath)
         cell.textLabel?.text = topics[indexPath.row]
+       // cell.Math_Image
+        cell.detailTextLabel?.text = "FUCK ME"
         return cell
     }
     
