@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB325CEA2830688B00FCB14F /* Super_Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CE92830688B00FCB14F /* Super_Hero.swift */; };
 		DB53B7E5282AF2120063AD2E /* Math_Question_Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */; };
 		DB53B7E9282B02700063AD2E /* Math_Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7E8282B02700063AD2E /* Math_Question3.swift */; };
 		DB53B7EB282B29A40063AD2E /* Math_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7EA282B29A40063AD2E /* Math_Results.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB325CE92830688B00FCB14F /* Super_Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Hero.swift; sourceTree = "<group>"; };
 		DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Question_Quiz2.swift; sourceTree = "<group>"; };
 		DB53B7E8282B02700063AD2E /* Math_Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Question3.swift; sourceTree = "<group>"; };
 		DB53B7EA282B29A40063AD2E /* Math_Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Results.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				DBECAA91282ACB920041891F /* Math_Questions.swift */,
 				DBECAA672829B72D0041891F /* Main.storyboard */,
 				DBECAA652829B72D0041891F /* ViewController.swift */,
+				DB325CE92830688B00FCB14F /* Super_Hero.swift */,
 				DB53B836282DF1DD0063AD2E /* Math_Final_Question.swift */,
 				DB53B832282DE26E0063AD2E /* Math_Answers.swift */,
 				DB53B7F0282B7A9F0063AD2E /* Physics_Part1.swift */,
@@ -295,6 +298,7 @@
 				DB53B835282DEC740063AD2E /* Math_Answer_2.swift in Sources */,
 				DB53B7E9282B02700063AD2E /* Math_Question3.swift in Sources */,
 				DBECAA622829B72D0041891F /* AppDelegate.swift in Sources */,
+				DB325CEA2830688B00FCB14F /* Super_Hero.swift in Sources */,
 				DB53B837282DF1DD0063AD2E /* Math_Final_Question.swift in Sources */,
 				DB53B7ED282B4EF70063AD2E /* Question_2.swift in Sources */,
 				DBECAA642829B72D0041891F /* SceneDelegate.swift in Sources */,

@@ -46,6 +46,8 @@ extension ViewController: UITableViewDelegate{
         performSegue(withIdentifier: "show_math", sender: self)
         }else if(selectedindex == 1){
             performSegue(withIdentifier: "physics", sender: self)
+        }else{
+            performSegue(withIdentifier: "super_hero", sender:  self)
         }
     }
     

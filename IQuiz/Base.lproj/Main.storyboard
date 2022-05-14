@@ -324,13 +324,13 @@
         <!--Item-->
         <scene sceneID="rqG-dD-Ger">
             <objects>
-                <viewController id="AMJ-87-q3g" customClass="ViewController" customModule="IQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AMJ-87-q3g" customClass="Super_Hero" customModule="IQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jvs-hD-Ols">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="c1Q-wu-RW6">
-                                <rect key="frame" x="126.5" y="367" width="161.5" height="162.5"/>
+                                <rect key="frame" x="126.5" y="340" width="161.5" height="162.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome SuperHero " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bD-7R-6MH">
                                         <rect key="frame" x="0.0" y="0.0" width="161.5" height="20.5"/>
@@ -362,6 +362,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="sdm-ul-VS6"/>
+                    <navigationItem key="navigationItem" id="4r7-VZ-dim"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zE2-5K-M8I" sceneMemberID="firstResponder"/>
             </objects>
@@ -528,6 +529,7 @@
                         <outlet property="TableView" destination="w52-qT-mg6" id="YlJ-hf-PNf"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="show_math" id="w3R-to-7jK"/>
                         <segue destination="PlH-8p-1eE" kind="show" identifier="physics" id="x1L-xJ-gPI"/>
+                        <segue destination="AMJ-87-q3g" kind="show" identifier="super_hero" id="VmB-lZ-8a1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fE-JL-Zh9" sceneMemberID="firstResponder"/>
