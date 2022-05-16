@@ -283,7 +283,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCe-kl-TvN">
                                         <rect key="frame" x="0.0" y="319.5" width="160" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Next Question"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                         <connections>
                                             <segue destination="hk9-au-C8e" kind="show" identifier="math_answer_1" id="FSV-1R-ywv"/>
                                         </connections>
@@ -591,7 +591,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2j-sT-gBF">
                                         <rect key="frame" x="0.0" y="319.5" width="176.5" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Next Question"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                         <connections>
                                             <segue destination="3lt-ZI-2tN" kind="show" identifier="science_Answer1" id="z9J-8f-DZl"/>
                                         </connections>
@@ -1163,7 +1163,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hk4-uU-fZf"/>
+        <segue reference="jf4-fJ-M38"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Intergal" width="900" height="1023"/>
