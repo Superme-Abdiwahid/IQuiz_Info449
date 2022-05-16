@@ -68,7 +68,6 @@ class Math_Question_Quiz2: UIViewController{
         if(chooseCorrectAnswer){
             totalCorrect += 1
         }
-        print("THIS IS THE ANSWER", totalCorrect)
 
         buildUpQuestions()
         Asnwer_C.setTitle("C. " + String(Question1_Possible_Answers[2]), for: .normal)
@@ -88,7 +87,6 @@ class Math_Question_Quiz2: UIViewController{
         switch segue.identifier
         {
         case Optional("question_2_Answer"):
-            print("This is fucken awesome")
             let secondVC = segue.destination as! Math_Answer_2
             secondVC.chooseanswerA = chooseAnswerA
             secondVC.chooseanswerc = chooseAnswerC

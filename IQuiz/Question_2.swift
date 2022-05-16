@@ -24,7 +24,6 @@ class Question_2: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.ArraysFill()
-//        Answer_A.setTitle("C. " + String(Question1_Possible_Answers[2]), for: .normal)
     }
    
  

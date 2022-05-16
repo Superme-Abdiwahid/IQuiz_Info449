@@ -19,7 +19,6 @@ class Math_Question3: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         buildUpQuestions()
-        print("Total = " + String(totalCorrect))
         Answer_C.setTitle("C. " + String(Question1_Possible_Answers[2]), for: .normal)
         Answer_A.setTitle("A. " + String(Question1_Possible_Answers[0]), for: .normal)
         Question_3.text = String_Question_1[0]
@@ -74,7 +73,6 @@ class Math_Question3: UIViewController{
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier{
     case Optional("Math_Finals"):
-        print("AND WERE DONE")
         let choice = segue.destination as! Math_Final_Question
             choice.chooseanswerA = chooseAnswerA
            choice.chooseanswerc = chooseAnswerC

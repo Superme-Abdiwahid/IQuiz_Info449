@@ -22,10 +22,6 @@ class Math_Answer_2: UIViewController{
     var displayResult: [String] = ["Answer Incorrect. Actual Answer is A 20", "Correct! Congrats"]
     var totalCorrect: Int = 0;
     override func viewDidLoad() {
-        print("ANSWER A", chooseanswerA)
-        print("ANSWER B", chooseanswerb)
-        print("ANSWER C", chooseanswerc)
-        print("ANSWER D", chooseanswerd)
         super.viewDidLoad()
         Titles.text = "Question 2 result"
         if(chooseanswerA){

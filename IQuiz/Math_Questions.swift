@@ -85,8 +85,7 @@ class Math_Questions: UIViewController{
         switch segue.identifier
         {
         case Optional("math_answer_1"):
-            print("abdi suprmee to second")
-            let secondVC = segue.destination as! Math_Answers
+        let secondVC = segue.destination as! Math_Answers
             secondVC.chooseCorrectAnswer = self.userChooseAnswer
             secondVC.chooseanswerA = chooseAnswerA
             secondVC.chooseanswerc = chooseAnswerC

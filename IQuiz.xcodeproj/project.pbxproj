@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DB325CEA2830688B00FCB14F /* Super_Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CE92830688B00FCB14F /* Super_Hero.swift */; };
+		DB325CEE28318CAD00FCB14F /* Physics_Answer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CED28318CAD00FCB14F /* Physics_Answer1.swift */; };
+		DB325CF028318FE400FCB14F /* Super_hero_Begin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CEF28318FE400FCB14F /* Super_hero_Begin.swift */; };
+		DB325CF2283193E300FCB14F /* Science_Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CF1283193E300FCB14F /* Science_Result.swift */; };
+		DB325CF42831DF8E00FCB14F /* Super_Hero_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CF32831DF8E00FCB14F /* Super_Hero_Results.swift */; };
+		DB325CF62831DFA100FCB14F /* Super_Hero_Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB325CF52831DFA100FCB14F /* Super_Hero_Answer.swift */; };
 		DB53B7E5282AF2120063AD2E /* Math_Question_Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */; };
 		DB53B7E9282B02700063AD2E /* Math_Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7E8282B02700063AD2E /* Math_Question3.swift */; };
 		DB53B7EB282B29A40063AD2E /* Math_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53B7EA282B29A40063AD2E /* Math_Results.swift */; };
@@ -48,6 +53,11 @@
 
 /* Begin PBXFileReference section */
 		DB325CE92830688B00FCB14F /* Super_Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Hero.swift; sourceTree = "<group>"; };
+		DB325CED28318CAD00FCB14F /* Physics_Answer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics_Answer1.swift; sourceTree = "<group>"; };
+		DB325CEF28318FE400FCB14F /* Super_hero_Begin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_hero_Begin.swift; sourceTree = "<group>"; };
+		DB325CF1283193E300FCB14F /* Science_Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Science_Result.swift; sourceTree = "<group>"; };
+		DB325CF32831DF8E00FCB14F /* Super_Hero_Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Hero_Results.swift; sourceTree = "<group>"; };
+		DB325CF52831DFA100FCB14F /* Super_Hero_Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Hero_Answer.swift; sourceTree = "<group>"; };
 		DB53B7E4282AF2120063AD2E /* Math_Question_Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Question_Quiz2.swift; sourceTree = "<group>"; };
 		DB53B7E8282B02700063AD2E /* Math_Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Question3.swift; sourceTree = "<group>"; };
 		DB53B7EA282B29A40063AD2E /* Math_Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_Results.swift; sourceTree = "<group>"; };
@@ -125,6 +135,11 @@
 				DBECAA632829B72D0041891F /* SceneDelegate.swift */,
 				DBECAA91282ACB920041891F /* Math_Questions.swift */,
 				DBECAA672829B72D0041891F /* Main.storyboard */,
+				DB325CF32831DF8E00FCB14F /* Super_Hero_Results.swift */,
+				DB325CF1283193E300FCB14F /* Science_Result.swift */,
+				DB325CF52831DFA100FCB14F /* Super_Hero_Answer.swift */,
+				DB325CEF28318FE400FCB14F /* Super_hero_Begin.swift */,
+				DB325CED28318CAD00FCB14F /* Physics_Answer1.swift */,
 				DBECAA652829B72D0041891F /* ViewController.swift */,
 				DB325CE92830688B00FCB14F /* Super_Hero.swift */,
 				DB53B836282DF1DD0063AD2E /* Math_Final_Question.swift */,
@@ -292,10 +307,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB53B7E5282AF2120063AD2E /* Math_Question_Quiz2.swift in Sources */,
+				DB325CF028318FE400FCB14F /* Super_hero_Begin.swift in Sources */,
 				DB53B7EF282B75E00063AD2E /* Math_Begin.swift in Sources */,
 				DB53B833282DE26E0063AD2E /* Math_Answers.swift in Sources */,
 				DBECAA662829B72D0041891F /* ViewController.swift in Sources */,
 				DB53B835282DEC740063AD2E /* Math_Answer_2.swift in Sources */,
+				DB325CF42831DF8E00FCB14F /* Super_Hero_Results.swift in Sources */,
+				DB325CEE28318CAD00FCB14F /* Physics_Answer1.swift in Sources */,
 				DB53B7E9282B02700063AD2E /* Math_Question3.swift in Sources */,
 				DBECAA622829B72D0041891F /* AppDelegate.swift in Sources */,
 				DB325CEA2830688B00FCB14F /* Super_Hero.swift in Sources */,
@@ -305,6 +323,8 @@
 				DBECAA92282ACB920041891F /* Math_Questions.swift in Sources */,
 				DB53B7F1282B7A9F0063AD2E /* Physics_Part1.swift in Sources */,
 				DB53B7EB282B29A40063AD2E /* Math_Results.swift in Sources */,
+				DB325CF2283193E300FCB14F /* Science_Result.swift in Sources */,
+				DB325CF62831DFA100FCB14F /* Super_Hero_Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

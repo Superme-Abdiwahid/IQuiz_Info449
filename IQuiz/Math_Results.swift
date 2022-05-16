@@ -13,7 +13,6 @@ class Math_Results: UIViewController{
 
     override func viewDidLoad(){
         super.viewDidLoad()
-        print("ABDIWAHID THE user got ", total_Questions_Correct)
         var percentage = Double(total_Questions_Correct) / Double(3) * 100.0
         
         Display_Results.text = "You got " + String(total_Questions_Correct) +

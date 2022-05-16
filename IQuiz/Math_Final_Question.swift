@@ -24,7 +24,6 @@ class Math_Final_Question: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         Titles.text = "Question 3 result"
-        print("ABDI", total_Questions_Correct)
         if(chooseanswerA){
             User_Answer.text = options[0]
             Answer_Result.text = displayResult[0]
